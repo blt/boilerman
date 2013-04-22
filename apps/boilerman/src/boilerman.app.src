@@ -1,0 +1,13 @@
+{application, boilerman,
+ [
+  {description, "A persistent network connection pool."},
+  {vsn, "0.0.1"},
+  {modules, [boilerman]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { boilerman_app, []}},
+  {env, []}
+ ]}.
